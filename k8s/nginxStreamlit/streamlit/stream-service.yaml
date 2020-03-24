@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: stream-service
+  labels:
+    run: stream-service
+spec:
+  selector:
+    run: stream-server
+  ports:
+  - port: 8501
+    targetPort: 8501
+
+  
+
+
+

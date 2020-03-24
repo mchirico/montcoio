@@ -8,10 +8,9 @@ spec:
   selector:
     run: stream-server
   ports:
-  - port: 8501
+  - port: 8000
     targetPort: 8501
 
-  
 
 
 

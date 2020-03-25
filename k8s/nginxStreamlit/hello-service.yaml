@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-server
+  labels:
+    run: hello-server
+spec:
+  selector:
+    run: hello-server
+  ports:
+  - port: 443
+    targetPort: 8080
+  type: LoadBalancer
+  loadBalancerIP: 35.188.216.58
+  
+
+
+

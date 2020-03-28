@@ -1,0 +1,6 @@
+kubectl exec -it gocorspv-server-fcf785bdf-p4wxd -- /bin/sh
+
+gcloud container clusters create pig --enable-network-policy  -m e2-micro
+
+
+gcloud container clusters delete pig

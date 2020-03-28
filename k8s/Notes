@@ -1,1 +1,1 @@
-gcloud container clusters create pig --enable-network-policy  -m e2-small --async
+gcloud container clusters create pig --enable-network-policy  -m e2-micro --async

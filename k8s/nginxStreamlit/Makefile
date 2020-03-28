@@ -30,4 +30,7 @@ logs:
 
 
 cluster:
-	~/google-cloud-sdk/bin/gcloud container clusters create pig --enable-network-policy  -m e2-micro
+	~/google-cloud-sdk/bin/gcloud container clusters create pig --enable-network-policy  -m e2-micro 
+
+kill:
+	~/google-cloud-sdk/bin/gcloud container clusters delete pig --quiet
